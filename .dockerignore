@@ -1,0 +1,33 @@
+
+# Dependencies
+node_modules
+
+# Build artifacts
+dist
+coverage
+
+# Git
+.git
+.gitignore
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+.npmrc
+*.pem
+*.key
+
+# IDE
+.vscode
+.idea
+
+# Logs
+*.log
+
+# Testing artifacts
+playwright-report
+test-results
+
+# OS files
+.DS_Store
